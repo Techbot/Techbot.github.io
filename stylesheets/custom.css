@@ -205,14 +205,13 @@ nav ul>li>a {
 }
 
 .grid-item {
-  /* background: rgba(0, 0, 0, 0.9); */
+  background: rgba(0, 0, 0, 0.9);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 1rem;
   color: white;
-  font-weight: 100;
-  align-content: start;
+  align-content: space-between;
 }
 
 .grid-item.special {
