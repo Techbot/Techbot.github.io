@@ -1,169 +1,112 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen"/>
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen"/>
-    <link rel="stylesheet" type="text/css" href="stylesheets/custom.css" media="screen"/>
-    <style>
-        img {
-            margin: 1em 0;
-            display: block;
-        }
+  <head>
+      <meta charset='utf-8'>
+      <meta http-equiv="X-UA-Compatible" content="chrome=1">
+      <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen"/>
+      <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen"/>
+      <link rel="stylesheet" type="text/css" href="stylesheets/custom.css" media="screen"/>
+      <style>
+          img {
+              margin: 1em 0;
+              display: block;
+          }
 
-        hr {
-            margin: 3em 0;
-        }
-    </style>
-    <title>Techbot.github.io by Techbot</title>
-</head>
-<body>
-<header>
-    <!-- <div class="container">
-        <h1>Techbot.github.io</h1>
-        <h2>More tech than your average bot</h2>
-        <section id="downloads">
-          <a href="https://github.com/Techbot" class="btn btn-github" target="_blank"><span class="icon"></span>View on GitHub</a>
-        </section>
-    </div> -->
+          hr {
+              margin: 3em 0;
+          }
+      </style>
+      <title>Techbot.github.io by Techbot</title>
+  </head>
+  <body>
 
-    <nav role="navigation">
+    {% include header.html %}
 
-      <ul class="menu">
-        <li class="menu-item">
-          <a href="index.html">Our Project<br>The Eclectic Meme</a>
-        </li>
-        <li class="menu-item">
-          <a href="projects.html" class="active">Web design &<br>development projects</a>
-        </li>
-        <li class="menu-item">
-          <a href="experiments.html">Games & code<br>experiments</a>
-        </li>
-        <li class="menu-item">
-          <a href="http://emc23.com/blog">Our Blog<br>e=mc23</a>
-        </li>
-      </ul>
+    <section class="projects">
+      <a class="section-title" name="projects"><h2>Web Design & Development Projects</h2></a>
 
-    </nav>
+      <div class="container grid">
 
-</header>
-
-
-<section class="projects">
-  <a class="section-title" name="projects"><h2>Web Design & Development Projects</h2></a>
-
-  <div class="container grid">
-
-  <div class="grid-item">
-    <img src="https://www.emc23.com/sites/default/files/images/techbot.io/umami-ember-homepage.png">
-    <div class="description">
-      <h2><a href="https://github.com/orgs/contentacms/contenta-ember" target="_blank">Umami Headless Drupal with Contenta CMS, EmberJs</a></h2>
-      <a href="http://umami.emc23.com/" target="_blank" class="btn btn-demo"><span class="icon"></span>View demo</a>
-      <p>EDIT THIS
-        The task is to create the Umami Drupal OOTB designs using ContentaCMS as the data enpoint, in whatever consumer "flavour" takes your fancy. We chose EmberJs.
-      </p>
-      <p>
-        <a href="http://emc23.com/blog/headless-drupal-emberjs-and-contenta-cms" target="_blank">More on our blog</a>
-      </p>
-    </div>
-  </div>
-
-    <div class="grid-item">
-      <img src="https://www.emc23.com/sites/default/files/images/techbot.io/feu-concept-speakers.png">
-      <div class="description">
-        <h2>
-          <a href="https://github.com/left23/feu-web-design" target="_blank">Web design ideas for Frontend United 2018</a></h2></h3>
-        <a href="http://emc23.com/feu/_index.html" target="_blank" class="btn btn-demo"><span class="icon"></span>View demo</a>
-        <p>
-          Web design ideas delivered in HTML/CSS for implementation in Drupal 8 by other volunteers for <a href="https://www.frontendunited.org/" target="_blank">Frontend United 2018</a> in Utrecht.
-        </p>
-        <p>
-          <a href="http://emc23.com/blog/frontend-united-2018-utrecht" target="_blank">More on our blog</a>
-        </p>
+      <div class="grid-item">
+        <img src="https://www.emc23.com/sites/default/files/images/techbot.io/umami-ember-homepage.png">
+        <div class="description">
+          <h2><a href="https://github.com/orgs/contentacms/contenta-ember" target="_blank">Umami Headless Drupal with Contenta CMS, EmberJs</a></h2>
+          <a href="http://umami.emc23.com/" target="_blank" class="btn btn-demo"><span class="icon"></span>View demo</a>
+          <p>EDIT THIS
+            The task is to create the Umami Drupal OOTB designs using ContentaCMS as the data enpoint, in whatever consumer "flavour" takes your fancy. We chose EmberJs.
+          </p>
+          <p>
+            <a href="http://emc23.com/blog/headless-drupal-emberjs-and-contenta-cms" target="_blank">More on our blog</a>
+          </p>
+        </div>
       </div>
-    </div>
 
-    <div class="grid-item">
-      <img src="https://www.emc23.com/sites/default/files/images/techbot.io/cmc-concepts.png">
-      <div class="description">
-        <h2>
-          Design process</h2>
-        <h3>
-          Lo-fi wireframes, navigation design, component style tile, high fidelity graphic page design, and Drupal 7 theme</h3>
-        <a href="http://cmc.ie/" target="_blank" class="btn btn-demo"><span class="icon"></span>View live site</a>
-        <p>
-        </p>
+        <div class="grid-item">
+          <img src="https://www.emc23.com/sites/default/files/images/techbot.io/feu-concept-speakers.png">
+          <div class="description">
+            <h2>
+              <a href="https://github.com/left23/feu-web-design" target="_blank">Web design ideas for Frontend United 2018</a></h2></h3>
+            <a href="http://emc23.com/feu/_index.html" target="_blank" class="btn btn-demo"><span class="icon"></span>View demo</a>
+            <p>
+              Web design ideas delivered in HTML/CSS for implementation in Drupal 8 by other volunteers for <a href="https://www.frontendunited.org/" target="_blank">Frontend United 2018</a> in Utrecht.
+            </p>
+            <p>
+              <a href="http://emc23.com/blog/frontend-united-2018-utrecht" target="_blank">More on our blog</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="grid-item">
+          <img src="https://www.emc23.com/sites/default/files/images/techbot.io/cmc-concepts.png">
+          <div class="description">
+            <h2>
+              Design process</h2>
+            <h3>
+              Lo-fi wireframes, navigation design, component style tile, high fidelity graphic page design, and Drupal 7 theme</h3>
+            <a href="http://cmc.ie/" target="_blank" class="btn btn-demo"><span class="icon"></span>View live site</a>
+            <p>
+            </p>
+          </div>
+        </div>
+
+        <div class="grid-item">
+          <img src="https://www.emc23.com/sites/default/files/images/techbot.io/patternlab.png">
+          <div class="description">
+            <h2>
+              Design-in-the-browser</h2>
+            <h3>
+              Patternlab integration, Drupal 8 implementation for website redesign</h3>
+            <p>
+            </p>
+          </div>
+        </div>
+
+        <div class="grid-item">
+          <img src="https://www.emc23.com/sites/default/files/images/techbot.io/living-styleguide.png">
+          <div class="description">
+            <h2>
+              Living Styleguide</h2>
+            <h3>
+              KSSnode styleguide and Drupal 8 OpenSocial integration</h3>
+            <p><a href="https://www.getopensocial.com/blog/open-source-technology/creating-living-style-guide-open-social" target="_blank">More on OpenSocial blog</a>
+          </div>
+        </div>
+
+        <div class="grid-item">
+          <img src="https://www.emc23.com/sites/default/files/images/techbot.io/hospital-wayfinder.png">
+          <div class="description">
+            <h2>
+              Design concepts</h2>
+            <h3>
+              High fidelity graphic mock ups for Hospital website tender, intended to be built in Drupal 7. Desktop and mobile homepage, and wayfinder app concept</h3>
+            <p>
+            </p>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
 
-    <div class="grid-item">
-      <img src="https://www.emc23.com/sites/default/files/images/techbot.io/patternlab.png">
-      <div class="description">
-        <h2>
-          Design-in-the-browser</h2>
-        <h3>
-          Patternlab integration, Drupal 8 implementation for website redesign</h3>
-        <p>
-        </p>
-      </div>
-    </div>
+    {% include footer.html %}
 
-
-    <div class="grid-item">
-      <img src="https://www.emc23.com/sites/default/files/images/techbot.io/living-styleguide.png">
-      <div class="description">
-        <h2>
-          Living Styleguide</h2>
-        <h3>
-          KSSnode styleguide and Drupal 8 OpenSocial integration</h3>
-        <p><a href="https://www.getopensocial.com/blog/open-source-technology/creating-living-style-guide-open-social" target="_blank">More on OpenSocial blog</a>
-      </div>
-    </div>
-
-
-    <div class="grid-item">
-      <img src="https://www.emc23.com/sites/default/files/images/techbot.io/hospital-wayfinder.png">
-      <div class="description">
-        <h2>
-          Design concepts</h2>
-
-        <h3>
-          High fidelity graphic mock ups for Hospital website tender, intended to be built in Drupal 7. Desktop and mobile homepage, and wayfinder app concept</h3>
-
-        <p>
-        </p>
-      </div>
-    </div>
-
-
-  </div>
-
-</section>
-
-<footer>
-
-  <nav role="navigation">
-
-    <ul class="menu">
-      <li class="menu-item">
-        <a href="index.html">Our Project<br>The Eclectic Meme</a>
-      </li>
-      <li class="menu-item">
-        <a href="projects.html" class="active">Web design &<br>development projects</a>
-      </li>
-      <li class="menu-item">
-        <a href="experiments.html">Games & code<br>experiments</a>
-      </li>
-      <li class="menu-item">
-        <a href="http://emc23.com/blog">Our Blog<br>e=mc23</a>
-      </li>
-    </ul>
-
-
-  </nav>
-
-</footer>
-
-</body>
+  </body>
 </html>

@@ -1,519 +1,424 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen"/>
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen"/>
-    <link rel="stylesheet" type="text/css" href="stylesheets/custom.css" media="screen"/>
-    <style>
-        img {
-            margin: 1em 0;
-            display: block;
-        }
+  <head>
+      <meta charset='utf-8'>
+      <meta http-equiv="X-UA-Compatible" content="chrome=1">
+      <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen"/>
+      <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen"/>
+      <link rel="stylesheet" type="text/css" href="stylesheets/custom.css" media="screen"/>
+      <style>
+          img {
+              margin: 1em 0;
+              display: block;
+          }
 
-        hr {
-            margin: 3em 0;
-        }
-    </style>
-    <title>Techbot.github.io by Techbot</title>
-</head>
-<body>
-<header>
-    <!-- <div class="container">
-        <h1>Techbot.github.io</h1>
-        <h2>More tech than your average bot</h2>
-        <section id="downloads">
-          <a href="https://github.com/Techbot" class="btn btn-github" target="_blank"><span class="icon"></span>View on GitHub</a>
-        </section>
-    </div> -->
+          hr {
+              margin: 3em 0;
+          }
+      </style>
+      <title>Techbot.github.io by Techbot</title>
+  </head>
+  <body>
+    {% include header.html %}
 
-    <nav role="navigation">
+    <section class="experiments">
+      <a class="section-title" name="experiments"><h2>Games and Code Experiments</h2></a>
+      <div class="container grid">
 
-      <ul class="menu">
-        <li class="menu-item">
-          <a href="index.html">Our Project<br>The Eclectic Meme</a>
-        </li>
-        <li class="menu-item">
-          <a href="projects.html">Web design &<br>development projects</a>
-        </li>
-        <li class="menu-item">
-          <a  class="active" href="experiments.html">Games & code<br>experiments</a>
-        </li>
-        <li class="menu-item">
-          <a href="http://emc23.com/blog">Our Blog<br>e=mc23</a>
-        </li>
-      </ul>
-
-
-    </nav>
-
-</header>
-
-
-<section class="experiments">
-
-  <a class="section-title" name="experiments"><h2>Games and Code Experiments</h2></a>
-
-  <div class="container grid">
-
-    <div class="grid-item">
-      <img src="https://www.emc23.com/sites/default/files/images/techbot.io/platformer.png">
-      <div class="description">
-        <h2>
+        <div class="grid-item">
+          <img src="https://www.emc23.com/sites/default/files/images/techbot.io/platformer.png">
+          <div class="description">
+            <h2>
               <a href="https://github.com/SaturdayCodersAmsterdam/Platform-Game_Stage9" target="_blank">Platformer</a>
-        </h2>
-        <a href="http://emc23.com/experiments/platform/" target="_blank" class="btn btn-demo"><span class="icon"></span>View demo</a>
-        <p>Using PhaserJS and Box2D, <a href="https://github.com/codevinsky/phaser-HudManager" target="_blank">Phaser HUD Manager</a>, particle and weapon plugin, created in collaboration at <a href="https://www.meetup.com/Saturday-Coding-Amsterdam" target="_blank">Saturday Coding Amsterdam</a>
-      </p>
-      </div>
-    </div>
-
-    <div class="grid-item">
-      <img src="https://www.emc23.com/sites/default/files/images/techbot.io/hex-grid-grid1.png">
-      <div class="description">
-        <h2>
-              <a href="https://github.com/Techbot/hex-investigations" target="_blank">Hex Investigations</a>
-        </h2>
-        <a href="/hex-investigations/" target="_blank" class="btn btn-demo"><span class="icon"></span>View demo</a>
-        <p>Using Hexel, Phaser and code by <a href="http://www.emanueleferonato.com" target="_blank">Emanuele Feronato</a>
-      </p>
-      </div>
-    </div>
-
-    <div class="grid-item">
-      <img src="https://www.emc23.com/sites/default/files/images/techbot.io/might-n-magic.png">
-      <div class="description">
-        <h2>
-              <a href="https://github.com/Techbot/might" target="_blank">Might n' Magick</a>
-        </h2>
-        <h3>
-         RPG (deep dungeons of doom clone)
-        </h3>
-        <a href="/might/" target="_blank" class="btn btn-demo"><span class="icon"></span>View demo</a>
-        <p>
-          <img src="https://www.emc23.com/sites/default/files/images/techbot.io/onegameamonth.png">
-          One Game a month Theme: Might
-        </p>
-      </div>
-    </div>
-
-
-    <div class="grid-item">
-      <img src="https://www.emc23.com/sites/default/files/images/techbot.io/css-layout-playground.png">
-
-      <div class="description">
-        <h2>
-          <a href="https://github.com/left23/css-layout-playground" target="_blank">CSS layout playground</a>
-        </h2>
-        <h3>
-          Starter html and css for various CSS Grid layout experiments
-        </h3>
-      </div>
-
-    </div>
-
-    <div class="grid-item special">
-      <img src="https://www.emc23.com/sites/default/files/images/techbot.io/cyberpunk2014.png">
-      <div class="description">
-        <h2>
-            <a href="https://github.com/Techbot/cyberpunk2014" target="_blank">cyberpunk2014</a>
-        </h2>
-        <h3>Glitch-Core</h3>
-        <a href="/cyberpunk2014/" target="_blank" class="btn btn-demo"><span class="icon"></span>View demo</a>
-        <p>
-          I had intend to enter this in the <a href="http://itch.io/jam/cyberpunk-jam" target="_blank">cyberpunk jam</a> organised by <a href="http://gamejolt.com/profile/devi-ever/33809/" target="_blank">Devi Ever</a> in March 2014 but halfway through I got completely stuck. I need to finish it but can't decide whether to make it an 80's style shooter with RPG elements or a simple endless runner for mobile. It was my first game using craftyJs. The backgrounds and characters are built using Poser3D.
-          <img src="https://www.emc23.com/sites/default/files/images/techbot.io/onegameamonth.png">
-          One Game a month Theme: Glitch
-        </p>
-      </div>
-    </div>
-
-    <div class="grid-item">
-      <img src="https://www.emc23.com/sites/default/files/images/techbot.io/template015_screenshot.jpg" width="300px">
-
-      <div class="description">
-        <h2>
-          <a href="https://www.emc23.com/sites/default/files/images/techbot.io/template015" target="_blank">template015</a>
-        </h2>
-          <h3>Techbotron
-          </h3>
-          <a href="/template015/" target="_blank" class="btn btn-demo"><span class="icon"></span>View demo</a>
-          <p>A basic attempt at a Robotron clone, using craftyJs. I started by using the code from Lost Gardens and a Pong example I found and iteratively turned it into a basic shoot-em-up using the mouse to aim and the cursor keys to move around. Uses craftyJs and totally not finished.
+            </h2>
+            <a href="http://emc23.com/experiments/platform/" target="_blank" class="btn btn-demo"><span class="icon"></span>View demo</a>
+            <p>Using PhaserJS and Box2D, <a href="https://github.com/codevinsky/phaser-HudManager" target="_blank">Phaser HUD Manager</a>, particle and weapon plugin, created in collaboration at <a href="https://www.meetup.com/Saturday-Coding-Amsterdam" target="_blank">Saturday Coding Amsterdam</a>
           </p>
-      </div>
-    </div>
+          </div>
+        </div>
 
-    <div class="grid-item">
-      <img src="https://www.emc23.com/sites/default/files/images/techbot.io/touch-demo-screenshot.png">
-      <div class="description">
-        <h2>
-          <a href="https://github.com/left23/touch-demo" target="_blank"></a>
-        </h2>
-        <h3>
-          Html, CSS, JS mobile interaction experiment
-        </h3>
-        <a href="http://emc23.com/experiments/touch_demo/" target="_blank" class="btn btn-demo"><span class="icon"></span>View demo</a>
-      </div>
+        <div class="grid-item">
+          <img src="https://www.emc23.com/sites/default/files/images/techbot.io/hex-grid-grid1.png">
+          <div class="description">
+            <h2>
+              <a href="https://github.com/Techbot/hex-investigations" target="_blank">Hex Investigations</a>
+            </h2>
+            <a href="/hex-investigations/" target="_blank" class="btn btn-demo"><span class="icon"></span>View demo</a>
+            <p>Using Hexel, Phaser and code by <a href="http://www.emanueleferonato.com" target="_blank">Emanuele Feronato</a>
+          </p>
+          </div>
+        </div>
 
-    </div>
+        <div class="grid-item">
+          <img src="https://www.emc23.com/sites/default/files/images/techbot.io/might-n-magic.png">
+          <div class="description">
+            <h2>
+              <a href="https://github.com/Techbot/might" target="_blank">Might n' Magick</a>
+            </h2>
+            <h3>
+            RPG (deep dungeons of doom clone)
+            </h3>
+            <a href="/might/" target="_blank" class="btn btn-demo"><span class="icon"></span>View demo</a>
+            <p>
+              <img src="https://www.emc23.com/sites/default/files/images/techbot.io/onegameamonth.png">
+              One Game a month Theme: Might
+            </p>
+          </div>
+        </div>
 
+        <div class="grid-item">
+          <img src="https://www.emc23.com/sites/default/files/images/techbot.io/css-layout-playground.png">
+          <div class="description">
+            <h2>
+              <a href="https://github.com/left23/css-layout-playground" target="_blank">CSS layout playground</a>
+            </h2>
+            <h3>
+              Starter html and css for various CSS Grid layout experiments
+            </h3>
+          </div>
+        </div>
 
+        <div class="grid-item special">
+          <img src="https://www.emc23.com/sites/default/files/images/techbot.io/cyberpunk2014.png">
+          <div class="description">
+            <h2>
+                <a href="https://github.com/Techbot/cyberpunk2014" target="_blank">cyberpunk2014</a>
+            </h2>
+            <h3>Glitch-Core</h3>
+            <a href="/cyberpunk2014/" target="_blank" class="btn btn-demo"><span class="icon"></span>View demo</a>
+            <p>
+              I had intend to enter this in the <a href="http://itch.io/jam/cyberpunk-jam" target="_blank">cyberpunk jam</a> organised by <a href="http://gamejolt.com/profile/devi-ever/33809/" target="_blank">Devi Ever</a> in March 2014 but halfway through I got completely stuck. I need to finish it but can't decide whether to make it an 80's style shooter with RPG elements or a simple endless runner for mobile. It was my first game using craftyJs. The backgrounds and characters are built using Poser3D.
+              <img src="https://www.emc23.com/sites/default/files/images/techbot.io/onegameamonth.png">
+              One Game a month Theme: Glitch
+            </p>
+          </div>
+        </div>
 
+        <div class="grid-item">
+          <img src="https://www.emc23.com/sites/default/files/images/techbot.io/template015_screenshot.jpg" width="300px">
 
+          <div class="description">
+            <h2>
+              <a href="https://www.emc23.com/sites/default/files/images/techbot.io/template015" target="_blank">template015</a>
+            </h2>
+              <h3>Techbotron
+              </h3>
+              <a href="/template015/" target="_blank" class="btn btn-demo"><span class="icon"></span>View demo</a>
+              <p>A basic attempt at a Robotron clone, using craftyJs. I started by using the code from Lost Gardens and a Pong example I found and iteratively turned it into a basic shoot-em-up using the mouse to aim and the cursor keys to move around. Uses craftyJs and totally not finished.
+              </p>
+          </div>
+        </div>
 
-    <div class="grid-item">
-      <img src="https://www.emc23.com/sites/default/files/images/techbot.io/whack-a-monarch.png">
-      <div class="description">
-        <h2>
-          <a href="https://github.com/left23/ogamMay" target="_blank">Whack-a-monarch</a>
-        </h2>
-        <h3>
-          jQuery whack-a-mole game
-        </h3>
-        <a href="/ogamMay/" target="_blank" class="btn btn-demo"><span class="icon"></span>View demo</a>
-        <p>
-          <img src="https://www.emc23.com/sites/default/files/images/techbot.io/onegameamonth.png">
-          One Game a month Theme: Family
-        </p>
-      </div>
+        <div class="grid-item">
+          <img src="https://www.emc23.com/sites/default/files/images/techbot.io/touch-demo-screenshot.png">
+          <div class="description">
+            <h2>
+              <a href="https://github.com/left23/touch-demo" target="_blank"></a>
+            </h2>
+            <h3>
+              Html, CSS, JS mobile interaction experiment
+            </h3>
+            <a href="http://emc23.com/experiments/touch_demo/" target="_blank" class="btn btn-demo"><span class="icon"></span>View demo</a>
+          </div>
 
-    </div>
+        </div>
 
+        <div class="grid-item">
+          <img src="https://www.emc23.com/sites/default/files/images/techbot.io/whack-a-monarch.png">
+          <div class="description">
+            <h2>
+              <a href="https://github.com/left23/ogamMay" target="_blank">Whack-a-monarch</a>
+            </h2>
+            <h3>
+              jQuery whack-a-mole game
+            </h3>
+            <a href="/ogamMay/" target="_blank" class="btn btn-demo"><span class="icon"></span>View demo</a>
+            <p>
+              <img src="https://www.emc23.com/sites/default/files/images/techbot.io/onegameamonth.png">
+              One Game a month Theme: Family
+            </p>
+          </div>
 
+        </div>
 
+        <div class="grid-item">
+          <img src="https://www.emc23.com/sites/default/files/images/techbot.io/template013_screenshot.jpg" width="300px">
+          <div class="description">
+            <h2>
+              <a href="https://github.com/Techbot/template013" target="_blank">template013</a>
+            </h2>
+            <h3>Simple multi-dimensional shooter in Javascript
+            </h3>
+            <a href="/template013/" target="_blank" class="btn btn-demo"><span class="icon"></span>View demo</a>
+            <p>
+            </p>
+          </div>
+        </div>
 
+        <div class="grid-item">
+          <img src="https://www.emc23.com/sites/default/files/images/techbot.io/midi-hsl.gif">
+          <div class="description">
+            <h2>
+              <a href="https://github.com/left23/midi-hsl" target="_blank">HSL colour changer</a>
+            </h2>
+            <h3>Javascipt, For USB MIDI controller
+            </h3>
+            <a href="/template012/" target="_blank" class="btn btn-demo"><span class="icon"></span>View demo</a>
+            <p>
+            </p>
+          </div>
+        </div>
 
+        <div class="grid-item">
+          <img src="https://www.emc23.com/sites/default/files/images/techbot.io/template012_screenshot.jpg" width="300px">
+          <div class="description">
+            <h2>
+              <a href="https://github.com/Techbot/template012" target="_blank">template012</a>
+            </h2>
+            <h3>Simple, single-direction shooter/racer
+            </h3>
+            <a href="/template012/" target="_blank" class="btn btn-demo"><span class="icon"></span>View demo</a>
+            <p>
+            </p>
+          </div>
+        </div>
 
-    <div class="grid-item">
-      <img src="https://www.emc23.com/sites/default/files/images/techbot.io/template013_screenshot.jpg" width="300px">
+        <div class="grid-item">
+          <img src="https://www.emc23.com/sites/default/files/images/techbot.io/template011_screenshot.jpg">
+          <div class="description">
+            <h2>
+              <a href="https://github.com/Techbot/template011" target="_blank">template011</a>
+            </h2>
+            <h3>Simple, side scrolling shooter
+            </h3>
+            <a href="/template011/" target="_blank" class="btn btn-demo"><span class="icon"></span>View demo</a>
+            <p>
+            </p>
+          </div>
+        </div>
 
-      <div class="description">
-        <h2>
-            <a href="https://github.com/Techbot/template013" target="_blank">template013</a>
-        </h2>
-        <h3>Simple multi-dimensional shooter in Javascript
-        </h3>
-        <a href="/template013/" target="_blank" class="btn btn-demo"><span class="icon"></span>View demo</a>
-        <p>
-        </p>
-      </div>
-    </div>
+        <div class="grid-item">
+          <img src="https://www.emc23.com/sites/default/files/images/techbot.io/p5_Stage1.png">
+          <div class="description">
+            <h2>
+              <a href="https://github.com/left23/p5_Stage2" target="_blank">p5 and MIDI
+              </a> </h2>
+            <a href="/template011/" target="_blank" class="btn btn-demo"><span class="icon"></span>View demo</a>
+            <p>
+            </p>
+          </div>
+        </div>
 
-    <div class="grid-item">
-      <img src="https://www.emc23.com/sites/default/files/images/techbot.io/midi-hsl.gif">
-      <div class="description">
-        <h2>
-            <a href="https://github.com/left23/midi-hsl" target="_blank">HSL colour changer</a>
-        </h2>
-        <h3>Javascipt, For USB MIDI controller
-        </h3>
-        <a href="/template012/" target="_blank" class="btn btn-demo"><span class="icon"></span>View demo</a>
-        <p>
-        </p>
-      </div>
-    </div>
+        <div class="grid-item special">
+          <img src="https://www.emc23.com/sites/default/files/images/techbot.io/steampunk.png">
+          <div class="description">
+            <h2>
+              <a href="https://github.com/left23/steampunk" target="_blank">Steampunk</a>
+            </h2>
+            <h3>
+              Themed setting for PhaserJs interaction, based on 000_plate
+            </h3>
+            <a href="/000_steampunk/" target="_blank" class="btn btn-demo"><span class="icon"></span>View demo</a>
+            <p>
+            </p>
+          </div>
+        </div>
 
-    <div class="grid-item">
-      <img src="https://www.emc23.com/sites/default/files/images/techbot.io/template012_screenshot.jpg" width="300px">
+        <div class="grid-item">
+          <img src="https://www.emc23.com/sites/default/files/images/techbot.io/template010_screenshot.jpg">
+          <div class="description">
+            <h2>
+              <a href="https://github.com/Techbot/template010" target="_blank">template010</a>
+            </h2>
+            <h3>Simple text adventure game in javascript</h3>
+            <a href="/template010/" target="_blank" class="btn btn-demo"><span class="icon"></span>View demo</a>
+            <p>
+            </p>
+          </div>
+        </div>
 
-      <div class="description">
-        <h2>
-            <a href="https://github.com/Techbot/template012" target="_blank">template012</a>
-        </h2>
-        <h3>Simple, single-direction shooter/racer
-        </h3>
-        <a href="/template012/" target="_blank" class="btn btn-demo"><span class="icon"></span>View demo</a>
-        <p>
-        </p>
-      </div>
-    </div>
+        <div class="grid-item">
+          <img src="https://www.emc23.com/sites/default/files/images/techbot.io/template009_screenshot.jpg">
+          <div class="description">
+            <h2>
+              <a href="https://github.com/Techbot/template009" target="_blank">template009</a>
+            </h2>
+            <h3>Frogger-like game based on Packt's Jquery Game Development Essentials by Selim Arsever
+            </h3>
+            <a href="/template009/" target="_blank" class="btn btn-demo"><span class="icon"></span>View demo</a>
+            <p>
+            </p>
+          </div>
+        </div>
 
+        <div class="grid-item">
+          <img src="https://www.emc23.com/sites/default/files/images/techbot.io/template008_screenshot.jpg">
+          <div class="description">
+            <h2>
+              <a href="https://github.com/Techbot/template008" target="_blank">template008</a>
+            </h2>
+            <h3>Simple canvas game re-edit (forked from Lost Decade Games)
+            </h3>
+            <a href="/template008/" target="_blank" class="btn btn-demo"><span class="icon"></span>View demo</a>
+            <p>
+            </p>
+          </div>
+        </div>
 
+        <div class="grid-item">
+          <img src="https://www.emc23.com/sites/default/files/images/techbot.io/ogam-jul2015.jpg">
+          <div class="description">
+            <h2>
+              <a href="https://github.com/Techbot" target="_blank">Weapon's test</a>
+            </h2>
+            <a href="#" target="_blank" class="btn btn-demo"><span class="icon"></span>Where is demo</a>
+            <p>
+              <img src="https://www.emc23.com/sites/default/files/images/techbot.io/onegameamonth.png">
+            </p>
+          </div>
+        </div>
 
-    <div class="grid-item">
+        <div class="grid-item">
+          <img src="https://www.emc23.com/sites/default/files/images/techbot.io/template007_screenshot.jpg">
+          <div class="description">
+            <h2>
+              <a href="https://github.com/Techbot/template007" target="_blank">template007</a>
+            </h2>
+            <h3>Read RGB data for map bounds based on Eric Rowell's Canvas Cookbook
+            </h3>
+            <a href="/template007/" target="_blank" class="btn btn-demo"><span class="icon"></span>View demo</a>
+            <p>
+            </p>
+          </div>
+        </div>
 
-      <img src="https://www.emc23.com/sites/default/files/images/techbot.io/template011_screenshot.jpg">
-      <div class="description">
-        <h2>
-            <a href="https://github.com/Techbot/template011" target="_blank">template011</a>
-        </h2>
-        <h3>Simple, side scrolling shooter
-        </h3>
-        <a href="/template011/" target="_blank" class="btn btn-demo"><span class="icon"></span>View demo</a>
-        <p>
-        </p>
-      </div>
-    </div>
+        <div class="grid-item">
+          <img src="https://www.emc23.com/sites/default/files/images/techbot.io/screenshot.png">
+          <div class="description">
+            <h2>
+              <a href="https://github.com/left23/prototype-trans" target="_blank">Web design interaction</a>
+            </h2>
+            <a href="http://emc23.com/experiments/prototype-trans" target="_blank" class="btn btn-demo"><span class="icon"></span>View demo</a>
+            <p>
+            </p>
+          </div>
+        </div>
 
-    <div class="grid-item">
+        <div class="grid-item">
+          <img src="https://www.emc23.com/sites/default/files/images/techbot.io/template006_screenshot.jpg">
+          <div class="description">
+            <h2>
+              <a href="https://github.com/Techbot/template006" target="_blank">template006</a>
+            </h2>
+            <h3>
+              A template for using Khan Academy code off-site
+            </h3>
+            <a href="/template006/" target="_blank" class="btn btn-demo"><span class="icon"></span>View demo</a>
+            <p>
+            </p>
+          </div>
+        </div>
 
-      <img src="https://www.emc23.com/sites/default/files/images/techbot.io/p5_Stage1.png">
-      <div class="description">
-        <h2>
-            <a href="https://github.com/left23/p5_Stage2" target="_blank">p5 and MIDI
-            </a> </h2>
-        <a href="/template011/" target="_blank" class="btn btn-demo"><span class="icon"></span>View demo</a>
-        <p>
-        </p>
-      </div>
-    </div>
+        <div class="grid-item">
+          <img src="https://www.emc23.com/sites/default/files/images/techbot.io/coderdojo-kata.jpg">
+          <div class="description">
+            <h2>
+              <a href="http://kata.coderdojo.com/wiki/Home_Page" target="_blank">CoderDojo Kata</a>
+            </h2>
+            <p>Tutorials and resources for CoderDojo</a>
+            </p>
+          </div>
+        </div>
 
-
-    <div class="grid-item special">
-
-      <img src="https://www.emc23.com/sites/default/files/images/techbot.io/steampunk.png">
-      <div class="description">
-        <h2>
-          <a href="https://github.com/left23/steampunk" target="_blank">Steampunk</a>
-        </h2>
-        <h3>
-          Themed setting for PhaserJs interaction, based on 000_plate
-        </h3>
-        <a href="/000_steampunk/" target="_blank" class="btn btn-demo"><span class="icon"></span>View demo</a>
-        <p>
-        </p>
-      </div>
-    </div>
-
-
-    <div class="grid-item">
-      <img src="https://www.emc23.com/sites/default/files/images/techbot.io/template010_screenshot.jpg">
-      <div class="description">
-        <h2>
-            <a href="https://github.com/Techbot/template010" target="_blank">template010</a>
-        </h2>
-        <h3>Simple text adventure game in javascript</h3>
-        <a href="/template010/" target="_blank" class="btn btn-demo"><span class="icon"></span>View demo</a>
-        <p>
-        </p>
-      </div>
-    </div>
-
-    <div class="grid-item">
-      <img src="https://www.emc23.com/sites/default/files/images/techbot.io/template009_screenshot.jpg">
-      <div class="description">
-        <h2>
-            <a href="https://github.com/Techbot/template009" target="_blank">template009</a>
-        </h2>
-        <h3>Frogger-like game based on Packt's Jquery Game Development Essentials by Selim Arsever
-        </h3>
-        <a href="/template009/" target="_blank" class="btn btn-demo"><span class="icon"></span>View demo</a>
-        <p>
-        </p>
-      </div>
-    </div>
-
-
-    <div class="grid-item">
-      <img src="https://www.emc23.com/sites/default/files/images/techbot.io/template008_screenshot.jpg">
-      <div class="description">
-        <h2>
-          <a href="https://github.com/Techbot/template008" target="_blank">template008</a>
-        </h2>
-        <h3>Simple canvas game re-edit (forked from Lost Decade Games)
-        </h3>
-        <a href="/template008/" target="_blank" class="btn btn-demo"><span class="icon"></span>View demo</a>
-        <p>
-        </p>
-      </div>
-    </div>
-
-
-    <div class="grid-item">
-      <img src="https://www.emc23.com/sites/default/files/images/techbot.io/ogam-jul2015.jpg">
-      <div class="description">
-        <h2>
-          <a href="https://github.com/Techbot" target="_blank">Weapon's test</a>
-        </h2>
-        <a href="#" target="_blank" class="btn btn-demo"><span class="icon"></span>Where is demo</a>
-        <p>
-          <img src="https://www.emc23.com/sites/default/files/images/techbot.io/onegameamonth.png">
-        </p>
-      </div>
-    </div>
-
-
-    <div class="grid-item">
-      <img src="https://www.emc23.com/sites/default/files/images/techbot.io/template007_screenshot.jpg">
-      <div class="description">
-        <h2>
-          <a href="https://github.com/Techbot/template007" target="_blank">template007</a>
-        </h2>
-        <h3>Read RGB data for map bounds based on Eric Rowell's Canvas Cookbook
-        </h3>
-        <a href="/template007/" target="_blank" class="btn btn-demo"><span class="icon"></span>View demo</a>
-        <p>
-        </p>
-      </div>
-    </div>
-
-
-    <div class="grid-item">
-      <img src="https://www.emc23.com/sites/default/files/images/techbot.io/screenshot.png">
-      <div class="description">
-        <h2>
-          <a href="https://github.com/left23/prototype-trans" target="_blank">Web design interaction</a>
-        </h2>
-        <a href="http://emc23.com/experiments/prototype-trans" target="_blank" class="btn btn-demo"><span class="icon"></span>View demo</a>
-        <p>
-        </p>
-      </div>
-    </div>
-
-
-    <div class="grid-item">
-      <img src="https://www.emc23.com/sites/default/files/images/techbot.io/template006_screenshot.jpg">
-
-      <div class="description">
-        <h2>
-          <a href="https://github.com/Techbot/template006" target="_blank">template006</a>
-        </h2>
-        <h3>
-          A template for using Khan Academy code off-site
-        </h3>
-        <a href="/template006/" target="_blank" class="btn btn-demo"><span class="icon"></span>View demo</a>
-        <p>
-        </p>
-      </div>
-    </div>
-
-    <div class="grid-item">
-      <img src="https://www.emc23.com/sites/default/files/images/techbot.io/coderdojo-kata.jpg">
-      <div class="description">
-        <h2>
-          <a href="http://kata.coderdojo.com/wiki/Home_Page" target="_blank">CoderDojo Kata</a>
-        </h2>
-        <p>Tutorials and resources for CoderDojo</a>
-        </p>
-      </div>
-    </div>
-
-
-    <div class="grid-item">
-      <img src="https://www.emc23.com/sites/default/files/images/techbot.io/template005_screenshot.jpg" width="300px">
-
-      <div class="description">
-        <h2>
+        <div class="grid-item">
+          <img src="https://www.emc23.com/sites/default/files/images/techbot.io/template005_screenshot.jpg" width="300px">
+          <div class="description">
+            <h2>
               <a href="https://github.com/Techbot/template005" target="_blank">template005</a>
-        </h2>
-        <h3>Basic game loop with Box2dJs
-        </h3>
-        <a href="/template005/" target="_blank" class="btn btn-demo"><span class="icon"></span>View demo</a>
-        <p>
-        </p>
+            </h2>
+            <h3>Basic game loop with Box2dJs
+            </h3>
+            <a href="/template005/" target="_blank" class="btn btn-demo"><span class="icon"></span>View demo</a>
+            <p>
+            </p>
+          </div>
+        </div>
+
+        <div class="grid-item">
+          <img src="https://www.emc23.com/sites/default/files/images/techbot.io/template004_screenshot.jpg">
+          <div class="description">
+            <h2>
+              <a href="https://github.com/Techbot/template004" target="_blank">template004</a>
+            </h2>
+            <h3>
+              Dynamically generated blocks using processingJS
+            </h3>
+            <a href="/template004/" target="_blank" class="btn btn-demo"><span class="icon"></span>View demo</a>
+            <p>
+            </p>
+          </div>
+        </div>
+
+        <div class="grid-item">
+          <img src="https://www.emc23.com/sites/default/files/images/techbot.io/template003_screenshot.jpg">
+          <div class="description">
+            <h2>
+                  <a href="https://github.com/Techbot/template003" target="_blank">template003</a>
+            </h2>
+            <h3>A basic platform game template using jQuery
+            </h3>
+            <a href="/template003/" target="_blank" class="btn btn-demo"><span class="icon"></span>View demo</a>
+            <p>
+            </p>
+          </div>
+        </div>
+
+        <div class="grid-item">
+          <img src="https://www.emc23.com/sites/default/files/images/techbot.io/template002_screenshot.jpg">
+          <div class="description">
+            <h2>
+              <a href="https://github.com/Techbot/template002" target="_blank">template002</a>
+            </h2>
+            <h3>
+              Bouncing Ball - From Pong to Arkanoid and beyond. It all starts here
+            </h3>
+            <a href="/template002/" target="_blank" class="btn btn-demo"><span class="icon"></span>View demo</a>
+            <p>
+            </p>
+          </div>
+        </div>
+
+        <div class="grid-item">
+          <img src="https://www.emc23.com/sites/default/files/images/techbot.io/scene-with-characters.png">
+          <div class="description">
+            <h2>
+              <a href="https://github.com/Techbot/template001" target="_blank">template001</a>
+            </h2>
+            <h3>Basic scaffolding for CoderDojo game tutorials
+            </h3>
+            <a href="/template001/" target="_blank" class="btn btn-demo"><span class="icon"></span>View demo</a>
+            <p>
+            </p>
+          </div>
+        </div>
+
+        <div class="grid-item">
+          <img src="https://www.emc23.com/sites/default/files/images/techbot.io/template000_screenshot.jpg">
+          <div class="description">
+            <h2>
+              <a href="https://github.com/Techbot/template000" target="_blank">template000</a>
+            </h2>
+            <h3>This first template demonstrates the main container div and use of external files, for CoderDojo game tutorials
+            </h3>
+            <a href="/template000/" target="_blank" class="btn btn-demo"><span class="icon"></span>View demo</a>
+            <p>
+            </p>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
 
-    <div class="grid-item">
-      <img src="https://www.emc23.com/sites/default/files/images/techbot.io/template004_screenshot.jpg">
+    {% include footer.html %}
 
-      <div class="description">
-        <h2>
-          <a href="https://github.com/Techbot/template004" target="_blank">template004</a>
-        </h2>
-        <h3>
-          Dynamically generated blocks using processingJS
-        </h3>
-        <a href="/template004/" target="_blank" class="btn btn-demo"><span class="icon"></span>View demo</a>
-        <p>
-        </p>
-      </div>
-    </div>
-
-    <div class="grid-item">
-      <img src="https://www.emc23.com/sites/default/files/images/techbot.io/template003_screenshot.jpg">
-
-      <div class="description">
-        <h2>
-              <a href="https://github.com/Techbot/template003" target="_blank">template003</a>
-        </h2>
-        <h3>A basic platform game template using jQuery
-        </h3>
-        <a href="/template003/" target="_blank" class="btn btn-demo"><span class="icon"></span>View demo</a>
-        <p>
-        </p>
-      </div>
-    </div>
-
-    <div class="grid-item">
-      <img src="https://www.emc23.com/sites/default/files/images/techbot.io/template002_screenshot.jpg">
-      <div class="description">
-        <h2>
-          <a href="https://github.com/Techbot/template002" target="_blank">template002</a>
-        </h2>
-        <h3>
-          Bouncing Ball - From Pong to Arkanoid and beyond. It all starts here
-        </h3>
-        <a href="/template002/" target="_blank" class="btn btn-demo"><span class="icon"></span>View demo</a>
-        <p>
-        </p>
-      </div>
-    </div>
-
-    <div class="grid-item">
-      <img src="https://www.emc23.com/sites/default/files/images/techbot.io/scene-with-characters.png">
-      <div class="description">
-        <h2>
-          <a href="https://github.com/Techbot/template001" target="_blank">template001</a>
-        </h2>
-        <h3>Basic scaffolding for CoderDojo game tutorials
-        </h3>
-        <a href="/template001/" target="_blank" class="btn btn-demo"><span class="icon"></span>View demo</a>
-        <p>
-        </p>
-      </div>
-    </div>
-
-    <div class="grid-item">
-      <img src="https://www.emc23.com/sites/default/files/images/techbot.io/template000_screenshot.jpg">
-
-      <div class="description">
-        <h2>
-          <a href="https://github.com/Techbot/template000" target="_blank">template000</a>
-        </h2>
-        <h3>This first template demonstrates the main container div and use of external files, for CoderDojo game tutorials
-        </h3>
-        <a href="/template000/" target="_blank" class="btn btn-demo"><span class="icon"></span>View demo</a>
-        <p>
-        </p>
-      </div>
-
-    </div>
-
-
-  </div>
-</section>
-
-
-
-<footer>
-
-  <nav role="navigation">
-
-    <ul class="menu">
-      <li class="menu-item">
-        <a href="index.html">Our Project<br>The Eclectic Meme</a>
-      </li>
-      <li class="menu-item">
-        <a href="projects.html">Web design &<br>development projects</a>
-      </li>
-      <li class="menu-item">
-        <a  class="active" href="experiments.html">Games & code<br>experiments</a>
-      </li>
-      <li class="menu-item">
-        <a href="http://emc23.com/blog">Our Blog<br>e=mc23</a>
-      </li>
-    </ul>
-
-
-  </nav>
-
-</footer>
-
-
-
-
-
-</body>
+  </body>
 </html>

@@ -1,0 +1,36 @@
+<header>
+  {% assign active = page.url | downcase | split: '/' %}
+  <nav role="navigation">
+    <ul class="menu">
+      <li><a href='index.html' {% if active[1] == 'index' %} {% endif %}>Home</a></li>
+      <li><a href='projects.html' {% if active[1] == 'projects' %}class='active'{% endif %}>Projects</a></li>
+      <li><a href='experiments.html' {% if active[1] == 'experiments' %} {% endif %}>Experiments</a></li>
+      <li><a href='https://emc23.com/blog' {% if active[1] == 'blog' %} {% endif %}>Blog</a></li>
+    </ul>
+  </nav>
+
+  <!-- <div class="container">
+      <h1>Techbot.github.io</h1>
+      <h2>More tech than your average bot</h2>
+      <div id="downloads">
+        <a href="https://github.com/Techbot" class="btn btn-github" target="_blank"><span class="icon"></span>View on GitHub</a>
+      </div>
+  </div> -->
+
+  <!-- <nav role="navigation">
+    <ul class="menu">
+      <li class="menu-item">
+        <a href="index.html" class="active">Our Project<br>The Eclectic Meme</a>
+      </li>
+      <li class="menu-item">
+        <a href="projects.html">Web design &<br>development projects</a>
+      </li>
+      <li class="menu-item">
+        <a href="experiments.html">Games & code<br>experiments</a>
+      </li>
+      <li class="menu-item">
+        <a href="http://emc23.com/blog">Our Blog<br>e=mc23</a>
+      </li>
+    </ul>
+  </nav> -->
+</header>
